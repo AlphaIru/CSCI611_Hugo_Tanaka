@@ -1,29 +1,58 @@
-# virtual environments
+############################
+# Virtual Environments
+############################
+
 as2/
-lib/
+as3/
+env/
+.env/
 venv/
 .venv/
+lib/
+
+# specific nested env
 Assignment2/build_cnn/as2/
+Assignment3/as3/
 
-# jupyter
-.ipynb_checkpoints/
+############################
+# Python
+############################
 
-# python cache
 __pycache__/
 *.py[cod]
 
-# models
+
+############################
+# Jupyter
+############################
+
+.ipynb_checkpoints/
+
+
+############################
+# Machine Learning Artifacts
+############################
+
+# model weights / checkpoints
 *.pt
 *.pth
-
-# generated exports
-*.html
 
 # datasets
 Assignment2/build_cnn/data/
 *.tar.gz
+
+
+############################
+# Generated Files
+############################
+
+*.html
 *.zip
 
-# mac junk
-__MACOSX/
+
+############################
+# macOS Junk
+############################
+
 .DS_Store
+__MACOSX/
