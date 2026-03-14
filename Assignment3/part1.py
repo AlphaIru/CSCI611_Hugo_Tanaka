@@ -6,6 +6,7 @@
 # 2026/3/13
 
 from ultralytics import YOLO
+
 model = YOLO("yolov8n.pt")
 
 
@@ -15,10 +16,12 @@ def main():
     # This is for test purpose
     # print("Hello World!")
 
-    results = model("sample_image.jpg")
-    results.show()
+    # Modded to save the output image
+    results = model("sample_image.jpg", save=True)
+    results[0].show()
 
     return
+
 
 if __name__ == "__main__":
     main()
