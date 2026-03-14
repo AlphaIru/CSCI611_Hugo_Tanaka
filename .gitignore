@@ -56,3 +56,31 @@ Assignment2/build_cnn/data/
 
 .DS_Store
 __MACOSX/
+
+
+# Python cache
+__pycache__/
+*.pyc
+
+# virtual environment
+as3/
+venv/
+
+# YOLO training outputs
+runs/
+
+# trained models
+*.pt
+
+# datasets
+dataset/
+dataset/images/
+dataset/yolo_dataset/images/
+
+# large compressed files
+*.zip
+*.tar
+*.gz
+
+# logs
+*.log
