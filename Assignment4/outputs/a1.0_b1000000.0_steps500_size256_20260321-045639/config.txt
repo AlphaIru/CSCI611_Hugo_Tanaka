@@ -1,0 +1,10 @@
+content: SF.jpg
+style: goth.jpg
+max_size: 256
+steps: 500
+alpha: 1.0
+beta: 1000000.0
+lr: 0.003
+print_every: 10
+show_every: 200
+device: cuda

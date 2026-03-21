@@ -63,7 +63,10 @@ __pycache__/
 *.pyc
 
 # virtual environment
+as1/
+as2/
 as3/
+as4/
 venv/
 
 # YOLO training outputs
